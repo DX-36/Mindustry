@@ -3997,7 +3997,7 @@ public class Blocks{
         }};
 
         foreshadow = new ItemTurret("foreshadow"){{
-            float brange = range = 500f;
+            float brange = range = 400f;
 
             requirements(Category.turret, with(Items.copper, 1000, Items.metaglass, 600, Items.surgeAlloy, 300, Items.plastanium, 200, Items.silicon, 600));
             ammo(
