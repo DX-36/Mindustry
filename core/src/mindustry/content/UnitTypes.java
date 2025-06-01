@@ -575,7 +575,7 @@ public class UnitTypes{
                 parentizeEffects = true;
 
                 bullet = new LaserBulletType(){{
-                    length = 460f;
+                    length = 300f;
                     damage = 560f;
                     width = 75f;
 
@@ -1820,7 +1820,7 @@ public class UnitTypes{
 
                 bullet = new RailBulletType(){{
                     shootEffect = Fx.railShoot;
-                    length = 500;
+                    length = 320;
                     pointEffectSpace = 60f;
                     pierceEffect = Fx.railHit;
                     pointEffect = Fx.railTrail;
